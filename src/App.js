@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
+import {} from "react-redux"
 
 function App() {
-    return <div className = "app" > < /div>;
+    return (
+
+    );
 }
 
 export default App;
