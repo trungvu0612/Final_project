@@ -17,6 +17,7 @@ import ShippingAndReturns from "./page/shipping-and-returns";
 import Shop from "./page/shop";
 import ShoppingCart from "./page/shopping-cart";
 import StoreLocator from "./page/store-locator";
+import Account from "./page/account";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <MainLayout>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/account" component={Account} />
             <Route path="/about" component={About} />
             <Route path="/auth" component={Auth} />
             <Route path="/blog" component={Blog} />
