@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AccountOrders() {
   return (
-    <div className="col-12 col-md-9 col-lg-8 offset-lg-1">
+    <>
       {/* Order */}
       <div className="card card-lg mb-5 border">
         <div className="card-body pb-0">
@@ -331,6 +331,6 @@ export default function AccountOrders() {
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   );
 }

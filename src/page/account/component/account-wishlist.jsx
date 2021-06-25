@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AccountWishlist() {
   return (
-    <div className="col-12 col-md-9 col-lg-8 offset-lg-1">
+    <>
       {/* Products */}
       <div className="row">
         {/* Item */}
@@ -231,6 +231,6 @@ export default function AccountWishlist() {
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   );
 }

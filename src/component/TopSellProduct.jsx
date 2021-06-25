@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function TopSellProduct({
   badge,
@@ -19,7 +20,7 @@ export default function TopSellProduct({
         {/* Image */}
         <div className="card-img">
           {/* Image */}
-          <a className="card-img-hover" href="product.html">
+          <Link className="card-img-hover" to="/product">
             <img
               className="card-img-top card-img-back"
               src={imgback}
@@ -30,7 +31,7 @@ export default function TopSellProduct({
               src={imgfront}
               alt="..."
             />
-          </a>
+          </Link>
           {/* Actions */}
           <div className="card-actions">
             <span className="card-action">
@@ -64,15 +65,15 @@ export default function TopSellProduct({
         <div className="card-body px-0">
           {/* Category */}
           <div className="font-size-xs">
-            <a className="text-muted" href="shop.html">
+            <Link className="text-muted" to="/shop">
               {category}
-            </a>
+            </Link>
           </div>
           {/* Title */}
           <div className="font-weight-bold">
-            <a className="text-body" href="product.html">
+            <Link className="text-body" to="/product">
               {title}
-            </a>
+            </Link>
           </div>
           {/* Price */}
           <div className="font-weight-bold text-muted">{price}</div>

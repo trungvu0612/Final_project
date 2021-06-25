@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AccountAddressEdit() {
   return (
-    <div className="col-12 col-md-9 col-lg-8 offset-lg-1">
+    <>
       {/* Heading */}
       <h6 className="mb-7">Add Address</h6>
       {/* Form */}
@@ -164,6 +164,6 @@ export default function AccountAddressEdit() {
           Add Address
         </button>
       </form>
-    </div>
+    </>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import TopSellProduct from "../../../component/TopSellProduct";
 
 export default function TopSellers() {
@@ -13,19 +14,27 @@ export default function TopSellers() {
               <h2 className="mb-4 text-center">Top month Sellers</h2>
               {/* Nav */}
               <div className="nav justify-content-center mb-10">
-                <a
+                <Link
                   className="nav-link active"
-                  href="#topSellersTab"
+                  to="#topSellersTab"
                   data-toggle="tab"
                 >
                   Women
-                </a>
-                <a className="nav-link" href="#topSellersTab" data-toggle="tab">
+                </Link>
+                <Link
+                  className="nav-link"
+                  to="#topSellersTab"
+                  data-toggle="tab"
+                >
                   Men
-                </a>
-                <a className="nav-link" href="#topSellersTab" data-toggle="tab">
+                </Link>
+                <Link
+                  className="nav-link"
+                  to="#topSellersTab"
+                  data-toggle="tab"
+                >
                   Kids
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -56,7 +65,7 @@ export default function TopSellers() {
                     {/* Image */}
                     <div className="card-img">
                       {/* Image */}
-                      <a className="card-img-hover" href="product.html">
+                      <Link className="card-img-hover" to="/product">
                         <img
                           className="card-img-top card-img-back"
                           src="/img/products/product-122.jpg"
@@ -67,7 +76,7 @@ export default function TopSellers() {
                           src="/img/products/product-7.jpg"
                           alt="..."
                         />
-                      </a>
+                      </Link>
                       {/* Actions */}
                       <div className="card-actions">
                         <span className="card-action">
@@ -101,15 +110,15 @@ export default function TopSellers() {
                     <div className="card-body px-0">
                       {/* Category */}
                       <div className="font-size-xs">
-                        <a className="text-muted" href="shop.html">
+                        <Link className="text-muted" to="/shop">
                           Shoes
-                        </a>
+                        </Link>
                       </div>
                       {/* Title */}
                       <div className="font-weight-bold">
-                        <a className="text-body" href="product.html">
+                        <Link className="text-body" to="/product">
                           Leather Sneakers
-                        </a>
+                        </Link>
                       </div>
                       {/* Price */}
                       <div className="font-weight-bold">
@@ -127,13 +136,13 @@ export default function TopSellers() {
                     {/* Image */}
                     <div className="card-img">
                       {/* Image */}
-                      <a href="#!">
+                      <Link to="#!">
                         <img
                           className="card-img-top card-img-front"
                           src="/img/products/product-8.jpg"
                           alt="..."
                         />
-                      </a>
+                      </Link>
                       {/* Actions */}
                       <div className="card-actions">
                         <span className="card-action">
@@ -167,15 +176,15 @@ export default function TopSellers() {
                     <div className="card-body px-0">
                       {/* Category */}
                       <div className="font-size-xs">
-                        <a className="text-muted" href="shop.html">
+                        <Link className="text-muted" to="/shop">
                           Tops
-                        </a>
+                        </Link>
                       </div>
                       {/* Title */}
                       <div className="font-weight-bold">
-                        <a className="text-body" href="product.html">
+                        <Link className="text-body" to="/product">
                           Cropped cotton Top
-                        </a>
+                        </Link>
                       </div>
                       {/* Price */}
                       <div className="font-weight-bold text-muted">$29.00</div>
@@ -188,13 +197,13 @@ export default function TopSellers() {
                     {/* Image */}
                     <div className="card-img">
                       {/* Image */}
-                      <a href="#!">
+                      <Link to="#!">
                         <img
                           className="card-img-top card-img-front"
                           src="/img/products/product-9.jpg"
                           alt="..."
                         />
-                      </a>
+                      </Link>
                       {/* Actions */}
                       <div className="card-actions">
                         <span className="card-action">
@@ -228,15 +237,15 @@ export default function TopSellers() {
                     <div className="card-body px-0">
                       {/* Category */}
                       <div className="font-size-xs">
-                        <a className="text-muted" href="shop.html">
+                        <Link className="text-muted" to="/shop">
                           Dresses
-                        </a>
+                        </Link>
                       </div>
                       {/* Title */}
                       <div className="font-weight-bold">
-                        <a className="text-body" href="product.html">
+                        <Link className="text-body" to="/product">
                           Floral print midi Dress
-                        </a>
+                        </Link>
                       </div>
                       {/* Price */}
                       <div className="font-weight-bold text-muted">$50.00</div>
@@ -253,7 +262,7 @@ export default function TopSellers() {
                     {/* Image */}
                     <div className="card-img">
                       {/* Image */}
-                      <a className="card-img-hover" href="product.html">
+                      <Link className="card-img-hover" to="/product">
                         <img
                           className="card-img-top card-img-back"
                           src="/img/products/product-123.jpg"
@@ -264,7 +273,7 @@ export default function TopSellers() {
                           src="/img/products/product-10.jpg"
                           alt="..."
                         />
-                      </a>
+                      </Link>
                       {/* Actions */}
                       <div className="card-actions">
                         <span className="card-action">
@@ -298,15 +307,15 @@ export default function TopSellers() {
                     <div className="card-body px-0">
                       {/* Category */}
                       <div className="font-size-xs">
-                        <a className="text-muted" href="shop.html">
+                        <Link className="text-muted" to="/shop">
                           Bags
-                        </a>
+                        </Link>
                       </div>
                       {/* Title */}
                       <div className="font-weight-bold">
-                        <a className="text-body" href="product.html">
+                        <Link className="text-body" to="/product">
                           Suede cross body Bag
-                        </a>
+                        </Link>
                       </div>
                       {/* Price */}
                       <div className="font-weight-bold">
@@ -324,7 +333,7 @@ export default function TopSellers() {
                     {/* Image */}
                     <div className="card-img">
                       {/* Image */}
-                      <a className="card-img-hover" href="product.html">
+                      <Link className="card-img-hover" to="/product">
                         <img
                           className="card-img-top card-img-back"
                           src="/img/products/product-124.jpg"
@@ -335,7 +344,7 @@ export default function TopSellers() {
                           src="/img/products/product-11.jpg"
                           alt="..."
                         />
-                      </a>
+                      </Link>
                       {/* Actions */}
                       <div className="card-actions">
                         <span className="card-action">
@@ -369,15 +378,15 @@ export default function TopSellers() {
                     <div className="card-body px-0">
                       {/* Category */}
                       <div className="font-size-xs">
-                        <a className="text-muted" href="shop.html">
+                        <Link className="text-muted" to="/shop">
                           Skirts
-                        </a>
+                        </Link>
                       </div>
                       {/* Title */}
                       <div className="font-weight-bold">
-                        <a className="text-body" href="product.html">
-                          Printed A-line Skirt
-                        </a>
+                        <Link className="text-body" to="/product">
+                          Printed Link-line Skirt
+                        </Link>
                       </div>
                       {/* Price */}
                       <div className="font-weight-bold text-muted">$79.00</div>
@@ -394,13 +403,13 @@ export default function TopSellers() {
                     {/* Image */}
                     <div className="card-img">
                       {/* Image */}
-                      <a href="#!">
+                      <Link to="#!">
                         <img
                           className="card-img-top card-img-front"
                           src="/img/products/product-12.jpg"
                           alt="..."
                         />
-                      </a>
+                      </Link>
                       {/* Actions */}
                       <div className="card-actions">
                         <span className="card-action">
@@ -434,15 +443,15 @@ export default function TopSellers() {
                     <div className="card-body px-0">
                       {/* Category */}
                       <div className="font-size-xs">
-                        <a className="text-muted" href="shop.html">
+                        <Link className="text-muted" to="/shop">
                           Shoes
-                        </a>
+                        </Link>
                       </div>
                       {/* Title */}
                       <div className="font-weight-bold">
-                        <a className="text-body" href="product.html">
+                        <Link className="text-body" to="/product">
                           Heel strappy Sandals
-                        </a>
+                        </Link>
                       </div>
                       {/* Price */}
                       <div className="font-weight-bold text-muted">$90.00</div>
@@ -456,9 +465,9 @@ export default function TopSellers() {
             <div className="col-12">
               {/* Link  */}
               <div className="mt-7 text-center">
-                <a className="link-underline" href="#!">
+                <Link className="link-underline" to="#!">
                   Discover more
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,6 +1,5 @@
 import React from "react";
-import { NavLink, Switch, useRouteMatch } from "react-router-dom";
-import { Route } from "workbox-routing";
+import { NavLink, Switch, useRouteMatch, Route } from "react-router-dom";
 import AccountAddress from "./component/account-address";
 import AccountOrder from "./component/account-order";
 import AccountPayment from "./component/account-payment";
@@ -28,13 +27,13 @@ export default function Account() {
                   <NavLink
                     exact
                     className="list-group-item list-group-item-action dropright-toggle "
-                    to={`${path}`}
+                    to={`${path}/account-order`}
                   >
                     Orders
                   </NavLink>
                   <NavLink
                     className="list-group-item list-group-item-action dropright-toggle "
-                    to={`${path}/account-wish-list`}
+                    to={`${path}/account-wishlist`}
                   >
                     Widhlist
                   </NavLink>
@@ -67,9 +66,12 @@ export default function Account() {
             </div>
             <div className="col-12 col-md-9 col-lg-8 offset-lg-1">
               <Switch>
-                <Route path={`${path}`} component={AccountOrder} />
                 <Route
-                  path={`${path}/account-wish-list`}
+                  path={`${path}/account-order`}
+                  component={AccountOrder}
+                />
+                <Route
+                  path={`${path}/account-wishlist`}
                   component={AccountWishlist}
                 />
                 <Route

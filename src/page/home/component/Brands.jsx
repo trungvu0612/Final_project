@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Brands() {
   return (
@@ -27,15 +28,15 @@ export default function Brands() {
                   className="card-img"
                 />
                 {/* Overlay */}
-                <a
+                <Link
                   className="card-img-overlay card-img-overlay-hover align-items-center bg-dark-40"
-                  href="blog-post.html"
+                  to="/blog-post"
                 >
                   <p className="my-0 font-size-xxs text-center text-white">
                     <i className="fe fe-heart mr-2" /> 248{" "}
                     <i className="fe fe-message-square mr-2 ml-3" /> 7
                   </p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-6 col-sm-4 col-md px-1">
@@ -48,15 +49,15 @@ export default function Brands() {
                   className="card-img"
                 />
                 {/* Overlay */}
-                <a
+                <Link
                   className="card-img-overlay card-img-overlay-hover align-items-center bg-dark-40"
-                  href="blog-post.html"
+                  to="/blog-post"
                 >
                   <p className="my-0 font-size-xxs text-center text-white">
                     <i className="fe fe-heart mr-2" /> 248{" "}
                     <i className="fe fe-message-square mr-2 ml-3" /> 7
                   </p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-6 col-sm-4 col-md px-1">
@@ -69,15 +70,15 @@ export default function Brands() {
                   className="card-img"
                 />
                 {/* Overlay */}
-                <a
+                <Link
                   className="card-img-overlay card-img-overlay-hover align-items-center bg-dark-40"
-                  href="blog-post.html"
+                  to="/blog-post"
                 >
                   <p className="my-0 font-size-xxs text-center text-white">
                     <i className="fe fe-heart mr-2" /> 248{" "}
                     <i className="fe fe-message-square mr-2 ml-3" /> 7
                   </p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-6 col-sm-4 col-md px-1">
@@ -90,15 +91,15 @@ export default function Brands() {
                   className="card-img"
                 />
                 {/* Overlay */}
-                <a
+                <Link
                   className="card-img-overlay card-img-overlay-hover align-items-center bg-dark-40"
-                  href="blog-post.html"
+                  to="/blog-post"
                 >
                   <p className="my-0 font-size-xxs text-center text-white">
                     <i className="fe fe-heart mr-2" /> 248{" "}
                     <i className="fe fe-message-square mr-2 ml-3" /> 7
                   </p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-6 col-sm-4 col-md px-1">
@@ -111,15 +112,15 @@ export default function Brands() {
                   className="card-img"
                 />
                 {/* Overlay */}
-                <a
+                <Link
                   className="card-img-overlay card-img-overlay-hover align-items-center bg-dark-40"
-                  href="blog-post.html"
+                  to="/blog-post"
                 >
                   <p className="my-0 font-size-xxs text-center text-white">
                     <i className="fe fe-heart mr-2" /> 248{" "}
                     <i className="fe fe-message-square mr-2 ml-3" /> 7
                   </p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-6 col-sm-4 col-md px-1">
@@ -132,15 +133,15 @@ export default function Brands() {
                   className="card-img"
                 />
                 {/* Overlay */}
-                <a
+                <Link
                   className="card-img-overlay card-img-overlay-hover align-items-center bg-dark-40"
-                  href="blog-post.html"
+                  to="/blog-post"
                 >
                   <p className="my-0 font-size-xxs text-center text-white">
                     <i className="fe fe-heart mr-2" /> 248{" "}
                     <i className="fe fe-message-square mr-2 ml-3" /> 7
                   </p>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

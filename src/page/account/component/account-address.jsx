@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AccountAddress() {
   return (
-    <div className="col-12 col-md-9 col-lg-8 offset-lg-1">
+    <>
       <div className="row">
         <div className="col-12 col-lg-6">
           {/* Card */}
@@ -78,6 +78,6 @@ export default function AccountAddress() {
           </a>
         </div>
       </div>
-    </div>
+    </>
   );
 }

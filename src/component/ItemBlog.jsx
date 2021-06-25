@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function ItemBlog({ time, img, title, content }) {
   return (
@@ -20,12 +21,12 @@ export default function ItemBlog({ time, img, title, content }) {
           {/* Text */}
           <p className="mb-0 text-gray-500">{content}</p>
           {/* Button */}
-          <a
+          <Link
             className="btn btn-link stretched-link px-0 text-reset"
-            href="blog-post.html"
+            to="/blog-post"
           >
             Read More <i className="fe fe-arrow-right ml-2" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -115,19 +115,19 @@ export const Header = () => {
             {/* Nav */}
             <ul className="nav navbar-nav mr-8">
               <li className="nav-item">
-                <a className="nav-link" href="./shipping-and-returns.html">
+                <Link className="nav-link" to="/shipping-and-returns">
                   Shipping
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./faq.html">
+                <Link className="nav-link" to="/faq">
                   FAQ
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./contact-us.html">
+                <Link className="nav-link" to="/contact-us">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             {/* Nav */}
@@ -160,9 +160,9 @@ export const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container">
           {/* Brand */}
-          <a className="navbar-brand" href="./overview.html">
+          <Link className="navbar-brand" to="/">
             Shopper.
-          </a>
+          </Link>
           {/* Toggler */}
           <button
             className="navbar-toggler"
@@ -181,7 +181,7 @@ export const Header = () => {
             <ul className="navbar-nav mx-auto">
               <li className="nav-item dropdown">
                 {/* Toggle */}
-                <Link className="nav-link" data-toggle="dropdown" href="/">
+                <Link className="nav-link" data-toggle="dropdown" to="/">
                   Home
                 </Link>
                 {/* Menu */}
@@ -627,9 +627,9 @@ export const Header = () => {
               </li>
               <li className="nav-item dropdown">
                 {/* Toggle */}
-                <a className="nav-link" data-toggle="dropdown" href="#">
+                <Link className="nav-link" data-toggle="dropdown" to="/shop">
                   Shop
-                </a>
+                </Link>
                 {/* Menu */}
                 <div className="dropdown-menu" style={{ minWidth: "650px" }}>
                   <div className="card card-lg">
@@ -940,9 +940,9 @@ export const Header = () => {
                     <div className="card-body">
                       <ul className="list-styled font-size-sm">
                         <li className="list-styled-item">
-                          <a className="list-styled-link" href="./about.html">
+                          <Link className="list-styled-link" to="/about">
                             About
-                          </a>
+                          </Link>
                         </li>
                         <li className="list-styled-item">
                           <a
@@ -985,9 +985,9 @@ export const Header = () => {
               </li>
               <li className="nav-item dropdown">
                 {/* Toggle */}
-                <a className="nav-link" data-toggle="dropdown" href="#">
+                <Link className="nav-link" data-toggle="dropdown" to="/blog">
                   Blog
-                </a>
+                </Link>
                 {/* Menu */}
                 <div className="dropdown-menu">
                   <div className="card card-lg">
@@ -1025,25 +1025,25 @@ export const Header = () => {
                 </a>
               </li>
               <li className="nav-item ml-lg-n4">
-                <a className="nav-link" href="./account-orders.html">
+                <Link className="nav-link" to="/account/account-order">
                   <i className="fe fe-user" />
-                </a>
+                </Link>
               </li>
               <li className="nav-item ml-lg-n4">
-                <a className="nav-link" href="./account-wishlist.html">
+                <Link className="nav-link" to="/account/account-wishlist">
                   <i className="fe fe-heart" />
-                </a>
+                </Link>
               </li>
               <li className="nav-item ml-lg-n4">
-                <a
+                <Link
                   className="nav-link"
                   data-toggle="modal"
-                  href="#modalShoppingCart"
+                  to="/shopping-cart"
                 >
                   <span data-cart-items={2}>
                     <i className="fe fe-shopping-cart" />
                   </span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

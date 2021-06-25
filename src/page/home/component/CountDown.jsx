@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function CountDown() {
   return (
@@ -75,9 +76,9 @@ export default function CountDown() {
                 </div>
               </div>
               {/* Button */}
-              <a className="btn btn-dark" href="shop.html">
+              <Link className="btn btn-dark" to="/shop">
                 Shop Now <i className="fe fe-arrow-right ml-2" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

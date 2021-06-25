@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function BestPick() {
   return (
@@ -43,12 +44,12 @@ export default function BestPick() {
                   {/* Heading */}
                   <h4 className="mb-0">Bags Collection</h4>
                   {/* Link */}
-                  <a
+                  <Link
                     className="btn btn-link stretched-link text-reset"
-                    href="shop.html"
+                    to="/shop"
                   >
                     Shop Now <i className="fe fe-arrow-right ml-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -77,12 +78,12 @@ export default function BestPick() {
                   {/* Heading */}
                   <h4 className="mb-0">Printed men’s Shirts</h4>
                   {/* Link */}
-                  <a
+                  <Link
                     className="btn btn-link stretched-link px-0 text-reset"
-                    href="shop.html"
+                    to="/shop"
                   >
                     Shop Now <i className="fe fe-arrow-right ml-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -106,12 +107,12 @@ export default function BestPick() {
                   {/* Heading */}
                   <h4 className="mb-0">Basic women’s Dresses</h4>
                   {/* Link */}
-                  <a
+                  <Link
                     className="btn btn-link stretched-link px-0 text-reset"
-                    href="shop.html"
+                    to="/shop"
                   >
                     Shop Now <i className="fe fe-arrow-right ml-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -132,12 +133,12 @@ export default function BestPick() {
                   {/* Heading */}
                   <h4 className="mb-0">Sweatshirts</h4>
                   {/* Link */}
-                  <a
+                  <Link
                     className="btn btn-link stretched-link text-reset"
-                    href="shop.html"
+                    to="/shop"
                   >
                     Shop Now <i className="fe fe-arrow-right ml-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

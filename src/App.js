@@ -18,6 +18,7 @@ import Shop from "./page/shop";
 import ShoppingCart from "./page/shopping-cart";
 import StoreLocator from "./page/store-locator";
 import Account from "./page/account";
+import BlogPost from "./page/blog-post";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/auth" component={Auth} />
             <Route path="/blog" component={Blog} />
+            <Route path="/blog-post" component={BlogPost} />
             <Route path="/checkout" component={Checkout} />
             <Route path="/coming-soon" component={ComingSoon} />
             <Route path="/contact-us" component={ContactUs} />

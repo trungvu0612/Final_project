@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AccountPaymentEdit() {
   return (
-    <div className="col-12 col-md-9 col-lg-8 offset-lg-1">
+    <>
       {/* Form */}
       <form>
         {/* Card */}
@@ -173,6 +173,6 @@ export default function AccountPaymentEdit() {
           Add Card
         </button>
       </form>
-    </div>
+    </>
   );
 }
